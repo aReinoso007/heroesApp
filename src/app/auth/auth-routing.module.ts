@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LayoutPageComponent } from './pages/layout/layout-page.component';
 
 const routes: Routes = [
-
+    { path:'',
+    component: LayoutPageComponent}
 ];
 
 @NgModule({
